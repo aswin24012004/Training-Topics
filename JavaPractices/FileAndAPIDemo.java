@@ -7,7 +7,7 @@ public class FileAndAPIDemo {
 
     public static void main(String[] args) {
 
-        String filePath = "data.txt";
+        String filePath = "./data.txt";
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
             writer.write("Java File Handling Example");
