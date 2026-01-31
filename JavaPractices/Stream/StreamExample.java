@@ -14,5 +14,13 @@ public class StreamExample {
 				.collect(Collectors.toList());
 		
 		System.out.println(result);
+
+        List<Integer> list = Arrays.asList(5, 3, 2, 5, 1, 3, 4);
+		
+		list.stream()
+			.distinct()
+			.sorted()
+			.forEach(System.out :: print);
+			}
 	}
 }
