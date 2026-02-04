@@ -9,7 +9,7 @@ It is part of my continuous preparation for **software development interviews** 
 
 ---
 
-## 🧠 Topics Covered
+## 🧠 Topics Covered.
 
 ### 🔹 Data Structures
 - Arrays
