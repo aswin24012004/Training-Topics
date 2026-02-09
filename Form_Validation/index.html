@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Registration Form</h1>
+    
+    <div id="successMessage" class="success-message">
+        Form submitted successfully! ✓
+    </div>
+
+    <form id="myForm">
+        
+        <!-- Name Field -->
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input 
+                type="text" 
+                id="name" 
+                name="name"
+                placeholder="Enter your name">
+            <span class="error-message">Name is required</span>
+        </div>
+
+        <!-- Email Field -->
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input 
+                type="email" 
+                id="email" 
+                name="email"
+                placeholder="Enter your email">
+            <span class="error-message">Email is required</span>
+        </div>
+
+        <!-- Phone Field -->
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input 
+                type="tel" 
+                id="phone" 
+                name="phone"
+                placeholder="Enter your phone number">
+            <span class="error-message">Phone number is required</span>
+        </div>
+
+        <!-- Password Field -->
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input 
+                type="password" 
+                id="password" 
+                name="password"
+                placeholder="Enter password">
+            <span class="error-message">Password is required</span>
+        </div>
+
+        <!-- Confirm Password Field -->
+        <div class="form-group">
+            <label for="confirmPassword">Confirm Password:</label>
+            <input 
+                type="password" 
+                id="confirmPassword" 
+                name="confirmPassword"
+                placeholder="Confirm password">
+            <span class="error-message" id="confirmError">Confirm password is required</span>
+        </div>
+
+        <!-- Agree Checkbox -->
+        <div class="form-group checkbox-group">
+            <input 
+                type="checkbox" 
+                id="agree" 
+                name="agree">
+            <label for="agree">I agree to the Terms and Conditions</label>
+        </div>
+        <span class="error-message" id="agreeError" style="display: block; margin-top: -15px; margin-bottom: 15px;">You must agree to continue</span>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+
+    </form>
+</div>
+
+<script src="./script.js">
+    // Get form and all input fields
+    
+</script>
+
+</body>
+</html>
