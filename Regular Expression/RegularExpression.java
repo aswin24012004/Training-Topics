@@ -11,5 +11,7 @@ public class RegularExpression {
     } else {
       System.out.println("Match not found");
     }
+    System.out.println("Regular Expression is completed");
+    // Command line
   }
 }
